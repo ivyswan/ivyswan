@@ -1,0 +1,42 @@
+[22-Mar-2021 09:33:44 UTC] Source - https://websitedemos.net/wp-content/uploads/2020/06/about5-640x1024.jpg
+[22-Mar-2021 09:33:44 UTC] BATCH - SKIP Image {already imported from xml} - https://websitedemos.net/wp-content/uploads/2020/06/about5-640x1024.jpg
+[22-Mar-2021 09:33:44 UTC] Log - {"url":"https:\/\/websitedemos.net\/wp-content\/uploads\/2020\/06\/about5-640x1024.jpg","id":0}
+[22-Mar-2021 09:33:45 UTC] about5-640x1024.jpg
+[22-Mar-2021 09:33:45 UTC] {"file":"\/home\/ivyswavu\/public_html\/ivy\/wp-content\/uploads\/2021\/03\/about5-640x1024-1.jpg","url":"https:\/\/ivyswan.com\/ivy\/wp-content\/uploads\/2021\/03\/about5-640x1024-1.jpg","type":"image\/jpeg","error":false}
+[22-Mar-2021 09:33:45 UTC] {"post_title":"about5-640x1024.jpg","guid":"https:\/\/ivyswan.com\/ivy\/wp-content\/uploads\/2021\/03\/about5-640x1024-1.jpg"}
+[22-Mar-2021 09:33:45 UTC] BATCH - SUCCESS Image {Imported} - https://ivyswan.com/ivy/wp-content/uploads/2021/03/about5-640x1024-1.jpg
+[22-Mar-2021 09:54:20 UTC] Source - https://websitedemos.net/wp-content/uploads/2020/06/site08.jpg
+[22-Mar-2021 09:54:20 UTC] BATCH - SKIP Image {already imported from xml} - https://websitedemos.net/wp-content/uploads/2020/06/site08.jpg
+[22-Mar-2021 09:54:20 UTC] Log - {"url":"https:\/\/websitedemos.net\/wp-content\/uploads\/2020\/06\/site08.jpg","id":0}
+[22-Mar-2021 09:54:20 UTC] site08.jpg
+[22-Mar-2021 09:54:20 UTC] {"file":"\/home\/ivyswavu\/public_html\/ivy\/wp-content\/uploads\/2021\/03\/site08.jpg","url":"https:\/\/ivyswan.com\/ivy\/wp-content\/uploads\/2021\/03\/site08.jpg","type":"image\/jpeg","error":false}
+[22-Mar-2021 09:54:20 UTC] {"post_title":"site08.jpg","guid":"https:\/\/ivyswan.com\/ivy\/wp-content\/uploads\/2021\/03\/site08.jpg"}
+[22-Mar-2021 09:54:20 UTC] BATCH - SUCCESS Image {Imported} - https://ivyswan.com/ivy/wp-content/uploads/2021/03/site08.jpg
+[22-Mar-2021 09:56:36 UTC] Source - https://websitedemos.net/wp-content/uploads/2020/06/site08.jpg
+[22-Mar-2021 09:56:36 UTC] Log - {"id":"586","url":"https:\/\/ivyswan.com\/ivy\/wp-content\/uploads\/2021\/03\/site08.jpg"}
+[23-Mar-2021 20:17:25 UTC] WordPress database error Specified key was too long; max key length is 1000 bytes for query CREATE TABLE `wp_cli_cookie_scan_cookies`(
+			    `id_cli_cookie_scan_cookies` INT NOT NULL AUTO_INCREMENT,
+			    `id_cli_cookie_scan` INT NOT NULL DEFAULT '0',
+			    `id_cli_cookie_scan_url` INT NOT NULL DEFAULT '0',
+			    `cookie_id` VARCHAR(255) NOT NULL,
+			    `expiry` VARCHAR(255) NOT NULL,
+			    `type` VARCHAR(255) NOT NULL,
+			    `category` VARCHAR(255) NOT NULL,
+                `category_id` INT NOT NULL,
+                `description` TEXT NULL DEFAULT '',
+			    PRIMARY KEY(`id_cli_cookie_scan_cookies`),
+			    UNIQUE `cookie` (`id_cli_cookie_scan`, `cookie_id`)
+            ) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci made by activate_plugin, do_action('activate_cookie-law-info/cookie-law-info.php'), WP_Hook->do_action, WP_Hook->apply_filters, Cookie_Law_Info_Cookie_Scaner->activator, Cookie_Law_Info_Cookie_Scaner->install_tables, Cookie_Law_Info_Cookie_Scaner->insert_scanner_tables, dbDelta
+[23-Mar-2021 20:17:25 UTC] WordPress database error Specified key was too long; max key length is 1000 bytes for query CREATE TABLE `wp_cli_cookie_scan_cookies`(
+			    `id_cli_cookie_scan_cookies` INT NOT NULL AUTO_INCREMENT,
+			    `id_cli_cookie_scan` INT NOT NULL DEFAULT '0',
+			    `id_cli_cookie_scan_url` INT NOT NULL DEFAULT '0',
+			    `cookie_id` VARCHAR(255) NOT NULL,
+			    `expiry` VARCHAR(255) NOT NULL,
+			    `type` VARCHAR(255) NOT NULL,
+			    `category` VARCHAR(255) NOT NULL,
+                `category_id` INT NOT NULL,
+                `description` TEXT NULL DEFAULT '',
+			    PRIMARY KEY(`id_cli_cookie_scan_cookies`),
+			    UNIQUE `cookie` (`id_cli_cookie_scan`, `cookie_id`)
+            )  made by activate_plugin, do_action('activate_cookie-law-info/cookie-law-info.php'), WP_Hook->do_action, WP_Hook->apply_filters, Cookie_Law_Info_Cookie_Scaner->activator, Cookie_Law_Info_Cookie_Scaner->install_tables, Cookie_Law_Info_Cookie_Scaner->insert_scanner_tables, Cookie_Law_Info_Cookie_Scaner->insert_scanner_tables, dbDelta
